@@ -1,11 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DEE5E5;
+    margin: 50px;
+}
+
 .title {
-    color: green; font-size: xx-large; font-weight: bolder; text-align: center;
+    color: #17B890;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
 }
 
 .turma {
-    color: brown; font-size: x-large; font-weight: bold; 
+    color: darkgreen;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.link {
-    font-size: larger; font-weight: bold;
+.listalinks {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+    display: block;
+}
+
+.button {
+    background-color: #5E807F;
+    padding: 20px 40px;
+    margin: 100px 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color:black;
+    line-height: 100px;
+}
+
+.button:hover {
+    background-color: #082D0F;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    color: white
 }
